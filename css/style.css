@@ -1,0 +1,558 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #ff0000;
+    --dark-red: #7b0303;
+}
+
+body {
+    font-family: 'Passion One', static;
+    font-size: 20px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    padding-left: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+/* Flex */
+
+.flex-parent {
+    max-width: 1100px;
+    width:100%;
+    display: flex;
+}
+
+.flex-child-element {
+    width:100%;
+    flex: 1;
+    padding: 10px;
+    margin: 30px;
+}
+
+.flex-child-element:first-child {
+    margin-left: 20px;
+}
+
+/* Home */
+
+.home {
+    margin-bottom: 0px;
+}
+
+.home .home-content {
+    width: 100%;
+}
+
+.home .home-text {
+    margin-bottom: 20px;
+}
+
+.home .home-blocks {
+    margin-bottom: 20px;
+    display: table-cell;
+    padding: 30px
+}
+
+.home .home-image {
+    margin-top: 20px;
+}
+
+/* Services */
+
+.services {
+    margin-bottom: 0px;
+    background-color: var(--dark-red);
+    color: #fff;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.services .services-heading {
+    width: 100%;
+    font-size: 200%;
+}
+
+.services .services-text {
+    margin-bottom: 20px;
+}
+.services .services-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.services .services-content {
+    width: 100%;
+}
+
+/* Booking Appointments */
+
+.ba {
+    margin-bottom: 0px;
+    background-color: var(--dark-red);
+    color: #fff;
+}
+
+.ba .ba-heading {
+    width: 100%;
+    font-size: 200%;
+    padding: 30px;
+}
+
+.ba .ba-text {
+    margin-bottom: 20px;
+}
+.ba .ba-image {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ba .ba-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Office Hours */
+
+.oh {
+    margin-bottom: 0px;
+    background-color: #fff;
+    color: #000;
+}
+
+.oh .oh-heading {
+    width: 100%;
+    font-size: 200%;
+    padding: 30px;
+    text-align: center;
+}
+
+.oh .oh-text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.oh .oh-image {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.oh .oh-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Financial */
+
+.fin {
+    margin-bottom: 0px;
+    background-color: #fff;
+    color: #000;
+}
+
+.fin .big-heading {
+    width: 100%;
+    font-size: 500%;
+    padding: 30px;
+    text-align: center;
+}
+
+.fin .fin-heading {
+    width: 100%;
+    font-size: 200%;
+    padding: 30px;
+    text-align: center;
+}
+
+.fin .fin-text {
+    margin-bottom: 20px;
+    font-size:150%;
+    text-align: center;
+}
+.fin .fin-image {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fin .fin-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Notice */
+
+.noti {
+    margin-bottom: 00px;
+    background-color: #fff;
+    color: #000;
+}
+
+.noti .noti-big-heading {
+    width: 100%;
+    font-size: 500%;
+    padding: 30px;
+    text-align: center;
+}
+
+.noti .noti-heading {
+    width: 100%;
+    font-size: 200%;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom:0px;
+}
+
+.noti .noti-text {
+    margin-bottom: 20px;
+    font-size:150%;
+    text-align: center;
+}
+.noti .noti-image {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:50%;
+    height:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.noti .noti-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Map */
+
+.themap {
+    margin-bottom: 00px;
+    background-color: #fff;
+    color: #000;
+}
+
+.themap .themap-heading {
+    width: 100%;
+    font-size: 200%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.themap .themap-text {
+    margin-bottom: 20px;
+    font-size:150%;
+    text-align: center;
+}
+
+.themap .themap-container {
+    display: flex;
+    justify-content: center;
+}
+
+.addspace {
+    margin-top: 50px;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10 px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn-dark {
+    background: var(--dark-red);
+    color: #fff;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* Text Classes */
+.text-xxl {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Card */
+
+.card {
+    background: var(--dark-red);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block; 
+    /* inline-block removed made card centere */
+}
+
+.card-special {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block; 
+    /* inline-block removed made card centere */
+}
+
+.card-centered {
+    background: var(--dark-red);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-notice {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gridattempt {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.testcard {
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: var(--dark-red);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.foot-size {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin: 20px 0 20px;
+}
+
+.foot-size-body {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 20px;
+}
+
+.mycontainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+.fin-lg {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 10px;
+}
+/* Hamburger Button */
+.hamburger-button {
+    display:none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.hamburger-button .hamburger-line {
+    width: 30px;
+    height: 3px;
+    background: #333;
+    margin: 6px 0;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 175px;
+    height: 100%;
+    z-index: 100;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    transition: right 0.3s ease-in-out;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+.mobile-menu ul {
+    margin-top: 100px;
+    padding-right: 10px;
+}
+
+.mobile-menu ul li {
+    margin: 10px 0;
+}
+
+.mobile-menu ul li a {
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/* Media Queries */
+
+@media (max-width:960px) {
+    .text-xxl {
+        font-size: 2.5rem;
+    }
+    .card-notice {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:670px) {
+    .navbar .main-menu {
+        display:none;
+    }
+
+    .navbar .hamburger-button {
+        display:block;
+    }
+}
+
+@media (max-width: 500px) {
+    .text-xxl {
+        font-size: 2rem;
+    }
+}
+
+.framespace {
+    margin-bottom: 30px;
+}
