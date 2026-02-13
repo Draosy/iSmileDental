@@ -556,3 +556,21 @@ img {
 .framespace {
     margin-bottom: 30px;
 }
+
+.map-container {
+    width: 100%;            /* fills container width on mobile */
+    max-width: 800px;       /* not too huge on desktop */
+    margin: 20px auto;      /* centers horizontally */
+}
+
+.map-container iframe {
+    width: 100%;            /* iframe match container width*/
+    aspect-ratio: 16 / 9;   /* height to width ratio */
+    border-radius: 8px;     /* modern corners */
+}
+
+.logo img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
