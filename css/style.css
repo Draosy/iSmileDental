@@ -562,12 +562,15 @@ img {
    display: flex;
    justify-content: center; /* keep in middle */ 
    padding: 0 20px; /* breathing room for mobile screens*/
+   margin-top: 20px;
+   margin-bottom: 50px;
 }
 
 .map-container iframe {
-    width: 600px; /* for desktop */
-    height: 450px;
-    max-width: 100%; /* shrink to fit for mobile */
+    width: 100%;
+    max-width: 600px; /* for desktop */
+    aspect-ratio: 4/3;
+    height: auto;
     border-radius: 8px;
 }
 
