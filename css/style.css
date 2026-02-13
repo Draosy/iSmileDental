@@ -557,16 +557,18 @@ img {
     margin-bottom: 30px;
 }
 
+/* center iframe on page */
 .map-container {
-    width: 100%;            /* fills container width on mobile */
-    max-width: 800px;       /* not too huge on desktop */
-    margin: 20px auto;      /* centers horizontally */
+   display: flex;
+   justify-content: center; /* keep in middle */ 
+   padding: 0 20px; /* breathing room for mobile screens*/
 }
 
 .map-container iframe {
-    width: 100%;            /* iframe match container width*/
-    aspect-ratio: 16 / 9;   /* height to width ratio */
-    border-radius: 8px;     /* modern corners */
+    width: 600px; /* for desktop */
+    height: 450px;
+    max-width: 100%; /* shrink to fit for mobile */
+    border-radius: 8px;
 }
 
 .logo img {
