@@ -603,12 +603,6 @@ a[href^="tel"] {
     animation-delay: 0.15s;
 }
 
-.spawn-image-map {
-    animation: fadeDown 1s ease-out forwards;
-    opacity: 0;
-}
-
-
     /*
 .hidden {
     opacity: 0;
