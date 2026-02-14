@@ -150,6 +150,12 @@ img {
     padding: 30px;
 }
 
+@media (max-width: 768px) {
+    .ba-heading {
+        font-size: 150%;
+    }
+}
+
 .ba .ba-text {
     margin-bottom: 20px;
 }
