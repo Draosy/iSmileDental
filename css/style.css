@@ -144,8 +144,9 @@ img {
 }
 
 .ba .ba-heading {
-    width: 100%;
+    max-width: 100%;
     font-size: 200%;
+    box-sizing: border-box;
     padding: 30px;
 }
 
@@ -574,8 +575,7 @@ img {
     border-radius: 8px;
 }
 
-.logo img {
-    width: 200px;
-    max-width: 100%;
-    height: auto;
+/* target "tel:" */
+a[href^="tel"] {
+  color: inherit; /* Uses the parent element's text color */
 }
