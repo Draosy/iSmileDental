@@ -151,8 +151,8 @@ img {
 }
 
 @media (max-width: 768px) {
-    .ba-heading {
-        font-size: 150%;
+    .ba .ba-heading {
+        font-size: 175%;
     }
 }
 
@@ -267,8 +267,8 @@ img {
     text-align: center;
 }
 .noti .noti-image {
-    padding-top: 20px;
-    margin-top: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
     width:50%;
     height:50%;
