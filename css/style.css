@@ -585,3 +585,39 @@ img {
 a[href^="tel"] {
   color: inherit; /* Uses the parent element's text color */
 }
+
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.spawn-image {
+    animation: fadeDown 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.15s;
+}
+
+.spawn-image-map {
+    animation: fadeDown 1s ease-out forwards;
+    opacity: 0;
+}
+
+
+    /*
+.hidden {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+    */
